@@ -1,0 +1,111 @@
+.review-container {
+    margin-top: 15rem;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-text {
+    font-size: 4rem;
+    padding: 1rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.item-reviews {
+    margin-top: 5rem;
+    width: 80%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem;
+    overflow-y: scroll;
+    position: relative;
+}
+
+.empty-text {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: var(--large-font-size);
+    color: var(--secondary-font-color);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.item-container {
+    width: 100%;
+    padding: 2rem;
+    border-radius: 3px;
+}
+
+.item-container:not(:last-of-type) {
+    border-bottom: 1px solid #0001;
+}
+
+.review-title {
+    text-transform: uppercase;
+    font-size: 2.1rem;
+    letter-spacing: 2px;
+}
+
+.review-message {
+    font-weight: 400;
+    font-size: 1.9rem;
+    hyphens: auto;
+    line-height: 3rem;
+}
+
+.review-message::first-letter {
+    text-transform: uppercase;
+}
+
+.review-from {
+    font-weight: 400;
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+    color: var(--secondary-font-color);
+}
+
+.review-from::first-letter {
+    text-transform: uppercase;
+}
+
+.form-ctrl {
+    width: 50%;
+    margin: 10rem auto;
+}
+
+.success-text {
+    color: #270;
+    background-color: #DFF2BF;
+    padding: 2rem;
+    font-size: var(--medium-font-size);
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.form-container {
+    width: 100%;
+    background-color: #0001;
+    padding-top: 3rem;
+    overflow: hidden;
+    padding: 4rem;
+    position: relative;
+}
+
+.container-heading {
+    font-size: 2.5rem;
+    text-align: center;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    text-transform: uppercase;
+    margin-bottom: 5rem;
+    letter-spacing: 2px;
+}
